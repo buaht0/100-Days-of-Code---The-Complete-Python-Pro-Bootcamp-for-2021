@@ -8,7 +8,7 @@ total_tip = (float(total_bill) / 100) * int(percentage_tip)
 one_person_tip = total_tip / int(people_count)
 one_person_bill = float(total_bill) / int(people_count)
 
-pay = one_person_tip +one_person_bill
+pay = one_person_tip + one_person_bill
 pay = round(pay,2)
 pay = "{:.2f}".format(pay)
 print(f"Each person should pay: ${pay}")
