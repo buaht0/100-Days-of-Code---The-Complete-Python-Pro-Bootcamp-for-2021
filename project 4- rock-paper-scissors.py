@@ -1,3 +1,6 @@
+#  Project 4- rock-paper-scissors
+import random 
+
 rock = '''
     _______
 ---'   ____)
@@ -24,7 +27,7 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-import random 
+
 
 choices = [rock, paper, scissors]
 
@@ -32,8 +35,7 @@ choices = [rock, paper, scissors]
 my_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors."))
 
 if my_choice >= 3 or my_choice < 0:
-  print("İnvalid number")
-  
+  print("İnvalid number") 
 else:
   print(f"You: {choices[my_choice]}")
   computer_choice = random.randint(0,2)
