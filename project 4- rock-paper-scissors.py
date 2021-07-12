@@ -1,4 +1,4 @@
-#  Project 4- rock-paper-scissors
+# Project 4- rock-paper-scissors
 import random 
 
 rock = '''
