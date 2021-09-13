@@ -1,3 +1,4 @@
+# Project 14 - Coffee Machine
 MENU = {
     "espresso": {
         "ingredients": {
@@ -98,14 +99,3 @@ while flag:
             print(f"Here is ${round(x['change'],2)}.\nHere is your latte.Enjoy!")
         else:
             print(check_resources(order))
-
-
-
-
-
-
-
-
-
-
-
