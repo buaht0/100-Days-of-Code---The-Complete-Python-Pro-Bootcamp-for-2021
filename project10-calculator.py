@@ -1,4 +1,4 @@
-# Project 10 - Band Name Generator
+# Project 10 - Calculator
 from art import logo
 
 # Add
