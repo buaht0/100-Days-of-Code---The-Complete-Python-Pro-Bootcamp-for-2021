@@ -1,4 +1,3 @@
-
 # Project 18 - The Hirst Painting
 import turtle as turtle_module
 import random
